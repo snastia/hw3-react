@@ -1,16 +1,16 @@
+import { Statistics } from "./Statistics/Statistics";
+import data from "../data.json"
+import friends from "../friends.json"
+import { FriendList } from "./Friends-list/Friends";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+     <Statistics title="Upload stats" stats={data} />;
+     <Statistics stats={data} />;
+     <FriendList friends={friends} />
+
     </div>
   );
 };
+

@@ -1,0 +1,14 @@
+.status{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    /* background-color: blue; */
+    display: inline-block;
+}
+
+.friendList{
+   margin: 40px;
+   padding: 40px;
+   display: flex;
+   justify-content: space-between;
+}
